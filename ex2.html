@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celsius e fahrenheit</title>
+</head>
+<body>
+    <script>
+        let grau = (prompt("Se você quiser transformar fahrenheit em graus celsius, digite 1, se quiser celsius em fahrenheit digite 2"))
+        let num = (prompt("Digite uma temperatura para transformarmos em graus celsius ou fahrenheit:"))
+        if (grau==1){
+            ( celsius = (num-32)/1.8)
+            alert ("A temperatura digitada em graus celsius ficou " + celsius)
+        } else if (grau==2){
+            (fahrenreit = num * 1.8 + 32)
+            alert ("A temperatura digitada em graus fahrenheit ficou " + fahrenreit)
+        }
+    </script>
+</body>
+</html>
+
+

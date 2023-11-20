@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números Pares e Soma</title>
+</head>
+<body>
+    <script>
+        let num = parseInt(prompt("Digite um número:"));
+        let soma = 0;
+
+        alert ("Números pares de 1 até " + num + ":");
+
+        for (let i = 2; i <= num; i += 2) {
+            alert (i);
+            soma += i;
+        }
+
+        alert ("A soma total dos números pares é: " + soma);
+    </script>
+</body>
+</html>
+
